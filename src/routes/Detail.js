@@ -29,7 +29,7 @@ function Detail() {
           <p>runtime: {movie.runtime}m</p>
           <p>{movie.description_full}</p>
           <p>
-            <Link to="/">Home</Link>
+            <Link to={`${process.env.PUBLIC_URL}/`}>Home</Link>
           </p>
         </div>
       )}
